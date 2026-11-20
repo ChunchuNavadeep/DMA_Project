@@ -10,6 +10,19 @@ A Streamlit academic dashboard combining the placement analytics application wit
 - **Random Forest Regression**: exploratory salary prediction for placed students with known salaries (R², MAE, baseline MAE, actual-vs-predicted, feature importance, salary-vs-CGPA).
 
 If `mlxtend` is missing or fails, the app automatically uses built-in Apriori / FP-Growth implementations (the "Engine" metric shows which one ran), so the dashboard keeps working.
+## 📸 Dashboard Preview
+
+### 1. Main Dashboard
+![Main Dashboard](Visulzations/Screenshot%202026-11-21%20010923.png)
+
+### 2. Data Analysis and Visualizations
+![Data Analysis](Visulzations/Screenshot%202026-11-21%20010954.png)
+
+### 3. Data Mining Results
+![Data Mining Results](Visulzations/Screenshot%202026-11-21%20011011.png)
+
+### 4. Dashboard Analytics
+![Dashboard Analytics](Visulzations/Screenshot%202026-11-21%20011031.png)
 
 ## Merged datasets
 All supplied datasets are in `data/`:
