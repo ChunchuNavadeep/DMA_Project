@@ -1,0 +1,14 @@
+column,description,type
+student_id,Unique synthetic student identifier,Text
+cgpa,Academic grade point average from 5.00 to 10.00,Numeric
+aptitude_score,Aptitude assessment score from 0 to 100,Integer
+communication_score,Demonstration communication score from 1 to 10,Numeric
+internship,Internship experience indicator,Yes/No
+projects,Number of projects,Integer
+certifications,Number of certifications,Integer
+backlogs,Number of backlogs in simulated data,Integer
+skills,Semicolon-separated skill list,Text
+placed,"Placement outcome: 1=placed, 0=not placed",Binary
+salary_lpa,Salary in LPA; blank for not-placed records,Numeric
+transaction_id,Student identifier for a transaction,Text
+items,Comma-separated categorical items for Apriori / FP-Growth,Text
